@@ -3,6 +3,7 @@
 [Dd]atasets/
 [Dd]ocs/
 [Tt]rash/
+*.idea/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/webstorm,intellij+all
