@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Im-Rises Error 404</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta content="4 url=index.html" http-equiv="refresh">
+    <style>
+        body {
+            background-image: url("./images/tsp_v2.png");
+            background-size: cover;
+        }
+
+        main {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .error-message {
+            font-size: 48px;
+        }
+
+        .content404 {
+            text-align: center;
+        }
+
+    </style>
+
 </head>
-<body style="background-image: url(images/tsp_v2.png);     background-position: center top;
-    background-size: 100% auto; background-repeat: no-repeat;">
-<p style="text-align: center; font-size: 5em;">404 Not Found</p>
-<p style="text-align: center; font-size: 2em;">Where do you think you're going?</p>
-<p style="text-align: center; font-size: 2em;">Redirecting to homepage</p>
+<body>
+<main>
+    <p class="error-message">404 Not Found</p>
+    <p class="content404">Where do you think you're going?</p>
+    <p><a href="index.html">Redirecting to homepage</a></p>
+</main>
 </body>
 </html>
